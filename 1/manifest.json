@@ -1,0 +1,37 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "114514",
+        "description": "§gai生成的玩意",
+        "uuid": "c1ee8989-14cc-44aa-9fdd-1c039b64b3f6",
+        "version": [0, 1, 0],
+        "min_engine_version": [1, 20, 30]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "613fdd49-7d4b-4652-a52b-ded8fe372ecf",
+            "version": [0, 1, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "51992277-36e3-4ac6-a329-b3cfc84a34ce",
+            "version": [0, 1, 0],
+            "entry": "index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.17.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.4.0-beta"
+        }
+    ],
+    "capabilities": [
+        "gametest"
+    ]
+}
